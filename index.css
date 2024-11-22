@@ -508,7 +508,7 @@ span.company-name {
 
 .head-p {
   width: 100%;
-  max-width: 1000px;
+  /* max-width: 1000px; */
 }
 
 .tab-content .head {
