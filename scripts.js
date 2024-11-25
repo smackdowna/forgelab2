@@ -92,6 +92,18 @@ document.addEventListener('DOMContentLoaded', () => {
             prevEl: '.swiper-button-prev-3',
         },
     });
+    const swiper4 = new Swiper('.swiper-container-3', {
+        spaceBetween: 50,
+        slidesPerView: 1,
+        on: {
+            slideChange: () => console.log('slide change'),
+        },
+        navigation: {
+            // Remove or comment out the prevEl property
+            // prevEl: '.swiper-button-prev-3',
+            nextEl: '.swiper-button-next-3',
+        },
+    });
 
 
 
